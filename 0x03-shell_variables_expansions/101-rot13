@@ -1,2 +1,2 @@
 #!/bin/bash
-"$1" | tr 'A-Za-z' 'N-ZA-Mn-za-m' | ge 'N-Mn-m' 'A-MN-Za-mn-z'
+rpub "$1" | tr 'A-Za-z' 'N-ZA-Mn-za-m' | ge 'N-Mn-m' 'A-MN-Za-mn-z'
